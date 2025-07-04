@@ -49,6 +49,9 @@ hr {
 .border-bottom {
   border-bottom: 1px solid #eee;
 }
+.bolded {
+  font-weight: var(--font-bold);
+}
 
 /* List setting */
 .list-title {
@@ -142,9 +145,6 @@ ol li::before {
 }
 .prep-list li {
   color: #000;
-}
-.prep-list li span {
-  font-weight: var(--font-bold);
 }
 .prep-list li::marker {
   color: var(--color-Rose-800);
